@@ -9,47 +9,70 @@
 </head>
 <body>
 
-<div class="content">
-    <div class="personal">
-        <h1 class="title" style="font-family: serif;">CV: Simon Rengifo Zapata</h1>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#personal-info">Personal Info</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="content">
+    <section class="personal" id="personal-info">
+        <h1 class="title" style="font-family: serif;">CV: <span>Simon Rengifo Zapata</span></h1>
         
-            <img src="./Cv1.jpeg" class="image">
+        <figure>
+            <img src="./Cv1.jpeg" class="image" alt="Photo of Simon Rengifo Zapata">
+            <figcaption>Simon Rengifo Zapata</figcaption>
+        </figure>
 
         <h2 class="titles">Personal Information:</h2>
-        <ul class= "lists">
-            <li><a href="">Email: simonrz1212@hotmail.com</a></li>
-            <li>Phone: +57 318 594 2744 </li>
-            <li>Adress: Street 56#50-25,Andalucia,Bello</li>
-            <li>ID: 1020417710</li>
+        <ul class="lists">
+            <li><a href="mailto:simonrz1212@hotmail.com">Email: simonrz1212@hotmail.com</a></li>
+            <li><strong>Phone:</strong> <time datetime="+57-318-594-2744">+57 318 594 2744</time></li>
+            <li><address>Street 56#50-25, Andalucia, Bello</address></li>
+            <li><abbr title="Identification">ID:</abbr> 1020417710</li>
         </ul>
-    </div>
+    </section>
 
-
-    <div>
+    <section id="introduction">
         <h2 class="titles">Introducing myself</h2>
-        <p style="display: block;width: 300px; text-align: justify;"> Hi, I'm a young guy with a lot of excitement in learning new things, as my future job expectations I would like to be in a company that allows me to grow professionally and personally, besides the salary I would love to gain solid experience for my future</p>
-    </div>
+        <article>
+            <p style="display: block; width: 300px; text-align: justify;">
+                Hi, I'm a <em>young guy</em> with a lot of excitement in learning new things.
+                As my future job expectations, I would like to be in a company that allows me to grow 
+                <mark>professionally and personally</mark>. Besides the salary, I would love to gain 
+                solid experience for my future.
+            </p>
+        </article>
+    </section>
 
-
-    <div class="skills"> 
+    <section class="skills" id="skills"> 
         <h2 class="titles">Skills</h2>
         <ul class="lists">
-            <li>Communicative Skills</li>
+            <li><strong>Communicative Skills</strong></li>
             <li>Speaking skills</li>
             <li>Creative</li>
-            <li>Team Work</li>
+            <li><em>Team Work</em></li>
         </ul>
-    </div>
+    </section>
 
-    <div class="education">
+    <section class="education" id="education">
         <h2 class="titles">Education</h2>
         <ul class="lists">
-            <li>High school: Institucion Educativa Andres Bello</li>
-            <li>Half technique: Administrative Asistant</li>
-            <li>English: B2 certificated</li>
+            <li>High school: <cite>Institución Educativa Andrés Bello</cite></li>
+            <li>Half technique: Administrative Assistant</li>
+            <li>English: <span lang="en">B2</span> certificated</li>
         </ul>
-    </div>
-</div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; <time datetime="2025">2025</time> Simon Rengifo Zapata</p>
+</footer>
 
 </body>
 </html>
